@@ -12,5 +12,6 @@ Rails.application.routes.draw do
     resources :users
     resources :courses
     resources :subjects, except: [:edit, :update, :destroy]
+    resources :course_subjects
   end
 end
